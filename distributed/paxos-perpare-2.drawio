@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T06:33:30.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="_VXBeSmsJBBrPNWtabcr" type="github"><diagram id="48QL58FNCyLry3r1ZAO2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-28T17:55:44.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="H8sJDNIKFqfMLjCIRFuq" type="github">
+  <diagram id="UEcXwHJKWPrflogWJHsV" name="第 1 页">
+    <mxGraphModel dx="1687" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mgv4BX-153gztvXAJTQM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Mgv4BX-153gztvXAJTQM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-2" value="client-1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;sketch=0;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Mgv4BX-153gztvXAJTQM-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-4" value="client-2" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;sketch=0;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Mgv4BX-153gztvXAJTQM-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-6" value="acceptor-1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=0;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Mgv4BX-153gztvXAJTQM-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-8" value="acceptor-2" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=0;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Mgv4BX-153gztvXAJTQM-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-10" value="acceptor-3" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=0;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;strokeWidth=3;sketch=1;shadow=0;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#0000FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="241" y="180" as="sourcePoint" />
+            <mxPoint x="241" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;strokeWidth=3;sketch=1;shadow=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="241" y="180" as="sourcePoint" />
+            <mxPoint x="281" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;strokeWidth=3;sketch=1;shadow=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="241" y="180" as="sourcePoint" />
+            <mxPoint x="841" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;fillColor=#f8cecc;strokeColor=#FF0000;strokeWidth=3;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="441" y="260" as="sourcePoint" />
+            <mxPoint x="441" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;fillColor=#f8cecc;strokeColor=#FF0000;strokeWidth=3;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="441" y="260" as="sourcePoint" />
+            <mxPoint x="521" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;fillColor=#f8cecc;strokeColor=#FF0000;strokeWidth=3;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="441" y="260" as="sourcePoint" />
+            <mxPoint x="641" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-17" value="准备请求-提案编号：1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fontSize=15;fontColor=#0000FF;" edge="1" parent="1" source="Mgv4BX-153gztvXAJTQM-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960.7407407407409" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;strokeWidth=3;sketch=1;shadow=0;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#0000FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="340" as="sourcePoint" />
+            <mxPoint x="560" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-20" value="learner" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=0;strokeColor=#d79b00;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;strokeWidth=3;sketch=1;shadow=0;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#0000FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="420" as="sourcePoint" />
+            <mxPoint x="680" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;fillColor=#f8cecc;strokeColor=#FF0000;strokeWidth=3;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="500" as="sourcePoint" />
+            <mxPoint x="840" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mgv4BX-153gztvXAJTQM-18" value="准备请求-提案编号：2" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
