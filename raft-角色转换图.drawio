@@ -1,52 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-11-26T06:35:04.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="aof_Vy4mkY12y4R435G5" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T04:41:47.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6waT-Ae8YkOX8doKJW5y" version="20.6.0" type="github">
   <diagram id="2kq6lMYJ-K8ZITNMDMuS" name="第 1 页">
-    <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NdtislNi8VnbUwwyG5X9-2" value="follower" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=0;strokeColor=#6c8ebf;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-2" value="follower" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=0;strokeColor=#6c8ebf;fontStyle=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="320" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NdtislNi8VnbUwwyG5X9-3" value="candidate" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;sketch=0;strokeColor=#82b366;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-3" value="candidate" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;sketch=0;strokeColor=#82b366;fontStyle=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="80" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NdtislNi8VnbUwwyG5X9-4" value="leader" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=0;strokeColor=#b85450;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-4" value="leader" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=0;strokeColor=#b85450;fontStyle=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="560" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NdtislNi8VnbUwwyG5X9-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;fontStyle=0;strokeWidth=3;sketch=1;" edge="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;fontStyle=0;strokeWidth=3;sketch=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="320" as="sourcePoint" />
             <mxPoint x="320" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NdtislNi8VnbUwwyG5X9-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;fontStyle=0;strokeWidth=3;sketch=1;" edge="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;fontStyle=0;strokeWidth=3;sketch=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="200" as="sourcePoint" />
             <mxPoint x="190" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NdtislNi8VnbUwwyG5X9-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;fontStyle=0;strokeWidth=3;sketch=1;" edge="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;fontStyle=0;strokeWidth=3;sketch=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="360" as="sourcePoint" />
             <mxPoint x="530" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NdtislNi8VnbUwwyG5X9-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;fontStyle=0;strokeWidth=3;sketch=1;" edge="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;fontStyle=0;strokeWidth=3;sketch=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="310" as="sourcePoint" />
             <mxPoint x="450" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NdtislNi8VnbUwwyG5X9-10" value="心跳超时" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;" vertex="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-10" value="心跳超时" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="220" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NdtislNi8VnbUwwyG5X9-11" value="新leader心跳" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;" vertex="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-11" value="新leader心跳" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="270" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NdtislNi8VnbUwwyG5X9-12" value="更高版本leader心跳" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;" vertex="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-12" value="更高版本leader心跳" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="230" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NdtislNi8VnbUwwyG5X9-13" value="选举获得大多数票数" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;" vertex="1" parent="1">
+        <mxCell id="NdtislNi8VnbUwwyG5X9-13" value="选举获得大多数票数" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="370" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
