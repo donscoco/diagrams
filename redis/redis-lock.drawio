@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T15:57:20.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="wR-0IUd0H_jxq9ksAzPC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T15:58:08.933Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="Egg0tffnSWR-W07DNqIE" type="github">
   <diagram id="J1jxrcaRVHqgqc3vRgck" name="第 1 页">
     <mxGraphModel dx="1468" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,7 +120,7 @@
           <mxGeometry x="800" y="120" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nMFPMFUnj8Qps_b1abMG-26" value="锁超时了，抢占锁" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="580" y="320" width="120" height="40" as="geometry" />
+          <mxGeometry x="520" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nMFPMFUnj8Qps_b1abMG-27" value="在确认锁超时了后，需要再次抢占锁，这次使用getset；&lt;br&gt;因为可能存在两个进程都判断超时，都去抢占。&lt;br&gt;lockval2=null 说明原来的删除了。&lt;br&gt;lockval1等于lockval2 说明没有人抢占，如果不等于说明有另一个进程占了" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=left;sketch=0;fillStyle=auto;" vertex="1" parent="1">
           <mxGeometry x="360" y="650" width="520" height="80" as="geometry" />
@@ -132,13 +132,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nMFPMFUnj8Qps_b1abMG-29" value="false" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="920" y="320" width="40" height="40" as="geometry" />
+          <mxGeometry x="900" y="320" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nMFPMFUnj8Qps_b1abMG-30" value="false" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fillStyle=auto;" vertex="1" parent="1">
           <mxGeometry x="680" y="560" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nMFPMFUnj8Qps_b1abMG-31" value="true" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fillStyle=auto;" vertex="1" parent="1">
           <mxGeometry x="440" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-32" value="true" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="660" y="320" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
