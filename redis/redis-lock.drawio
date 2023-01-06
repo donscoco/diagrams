@@ -1,1 +1,137 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T15:33:46.434Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="DL2qpzsdtUFmKCgVJkFT" type="github"><diagram id="F5HAniIhW1FmF0bUknTW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-06T15:52:14.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="wX1v5n2pXZ03ZeKNAluj" type="github">
+  <diagram id="J1jxrcaRVHqgqc3vRgck" name="第 1 页">
+    <mxGraphModel dx="1468" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-1" value="&lt;span style=&quot;font-size: 15px; font-weight: 700;&quot;&gt;setnx(lockkey,currenttime+timeout)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-4" value="&lt;span style=&quot;font-size: 15px; font-weight: 700;&quot;&gt;expire(lockkey)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-5" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;执行业务&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-6" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;del(lockkey)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;结束&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-4" target="nMFPMFUnj8Qps_b1abMG-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="240" as="sourcePoint" />
+            <mxPoint x="890" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-9" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;strokeWidth=2;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-5" target="nMFPMFUnj8Qps_b1abMG-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-10" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;strokeWidth=2;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-6" target="nMFPMFUnj8Qps_b1abMG-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="420" as="sourcePoint" />
+            <mxPoint x="400" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-11" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;strokeWidth=2;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-1" target="nMFPMFUnj8Qps_b1abMG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="330" as="sourcePoint" />
+            <mxPoint x="570" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-12" value="&lt;span style=&quot;font-size: 15px; font-weight: 700;&quot;&gt;get(lockkey)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-13" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;lockval!=nil&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;currentTIme&amp;gt;lockval1&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="720" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-14" value="&lt;span style=&quot;font-size: 15px; font-weight: 700;&quot;&gt;getset(lockkey,currenttime+timeout)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-15" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;没抢到锁，结束&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="880" y="570" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-16" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;strokeWidth=2;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-1" target="nMFPMFUnj8Qps_b1abMG-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="300" as="sourcePoint" />
+            <mxPoint x="510" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-17" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;strokeWidth=2;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-12" target="nMFPMFUnj8Qps_b1abMG-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="340" as="sourcePoint" />
+            <mxPoint x="640" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-18" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;strokeWidth=2;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-13" target="nMFPMFUnj8Qps_b1abMG-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="370" as="sourcePoint" />
+            <mxPoint x="470" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-19" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;lockval2==nil&lt;br&gt;||&lt;br&gt;lockval1==lockval2&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-20" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;strokeWidth=2;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-14" target="nMFPMFUnj8Qps_b1abMG-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="530" as="sourcePoint" />
+            <mxPoint x="610" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-21" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;strokeWidth=2;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-19" target="nMFPMFUnj8Qps_b1abMG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="sourcePoint" />
+            <mxPoint x="340" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="600" />
+              <mxPoint x="360" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-22" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;strokeWidth=2;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-13" target="nMFPMFUnj8Qps_b1abMG-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="590" as="sourcePoint" />
+            <mxPoint x="950" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-23" value="1,抢占成功" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-24" value="0,抢占失败" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="680" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-25" value="抢占锁的进程可能宕机退出超时了，检查时间" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="800" y="120" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-26" value="锁超时了，抢占锁" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;sketch=0;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="580" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-27" value="在确认锁超时了后，需要再次抢占锁，这次使用getset；&lt;br&gt;因为可能存在两个进程都判断超时，都去抢占。&lt;br&gt;lockval2=null 说明原来的删除了。&lt;br&gt;lockval1等于lockval2 说明没有人抢占，如果不等于说明有另一个进程占了" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=left;sketch=0;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="360" y="650" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nMFPMFUnj8Qps_b1abMG-28" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;strokeWidth=2;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nMFPMFUnj8Qps_b1abMG-19" target="nMFPMFUnj8Qps_b1abMG-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="610" as="sourcePoint" />
+            <mxPoint x="830" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
