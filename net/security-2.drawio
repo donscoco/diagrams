@@ -1,1 +1,244 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T09:16:34.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="NCbGq_KhJIOtRd-1-7cB" type="github"><diagram id="e2bgybqaWQC_VN-t9XFu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-09T10:08:14.681Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="AcQfMZThpRg0uP6Mnirb" type="github">
+  <diagram id="sRC8dVMDeOYJqI8YXXE3" name="第 1 页">
+    <mxGraphModel dx="536" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-45" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="760" width="360" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-69" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="777.5" width="120" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-73" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="780" width="119" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-72" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1141.5" y="780" width="119" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-46" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="840" y="760" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-68" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="780" width="200" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-19" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="400" width="360" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-20" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="840" y="400" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-21" value="密钥信息" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="920" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-22" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="920" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-23" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="959.4999999999998" y="530" as="sourcePoint" />
+            <mxPoint x="959.4999999999998" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-24" value="摘要算法" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-25" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="560" as="sourcePoint" />
+            <mxPoint x="1640" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-26" value="密钥信息" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1680" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-27" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1680" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-28" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1780" y="480" as="sourcePoint" />
+            <mxPoint x="1880" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1880" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-29" value="摘要算法" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-30" value="密钥信息" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1161" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-31" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1161" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-34" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="540" as="sourcePoint" />
+            <mxPoint x="1300" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-35" value="中间人" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1320" y="620" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-36" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="620" as="sourcePoint" />
+            <mxPoint x="1500" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-37" value="hashB" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1840" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="620" as="sourcePoint" />
+            <mxPoint x="1830" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-39" value="比较" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="580" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-40" value="密钥信息" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1480" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-41" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1480" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-42" value="密钥信息" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1320" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/check-128.png" vertex="1" parent="1">
+          <mxGeometry x="1940" y="600" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-47" value="data1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="920" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-48" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="920" y="1000" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-49" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="959.4999999999995" y="930" as="sourcePoint" />
+            <mxPoint x="959.4999999999995" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-50" value="摘要算法" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="940" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-51" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1079.9999999999998" y="960" as="sourcePoint" />
+            <mxPoint x="1640" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-52" value="密钥信息" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1680" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-53" value="hashB" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1000" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-54" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1780" y="880" as="sourcePoint" />
+            <mxPoint x="1880" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1880" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-55" value="摘要算法" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="900" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-56" value="data1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1161" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-57" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1161" y="880" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-58" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1219.9999999999998" y="940" as="sourcePoint" />
+            <mxPoint x="1299.9999999999998" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-59" value="中间人" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1020" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-60" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1419.9999999999998" y="1020" as="sourcePoint" />
+            <mxPoint x="1499.9999999999998" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-61" value="hashB" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1000" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-62" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="1020" as="sourcePoint" />
+            <mxPoint x="1830" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-63" value="比较" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="980" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-64" value="data2" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1480" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-65" value="hashB" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1480" y="880" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-66" value="密钥信息" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1080" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-67" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/check-128.png" vertex="1" parent="1">
+          <mxGeometry x="1940" y="1000" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-71" value="密钥加密" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="790" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-75" value="data1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1161" y="1160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-76" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1161" y="1240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-77" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="1060" as="sourcePoint" />
+            <mxPoint x="1220" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-78" value="data2" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-79" value="hashB" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-80" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="1140" as="sourcePoint" />
+            <mxPoint x="1420" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-81" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="1220" as="sourcePoint" />
+            <mxPoint x="1460" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-82" value="篡改" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-83" value="解密" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1080" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMcFXroiwzxX4KKhiDyv-84" value="加密" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1080" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
