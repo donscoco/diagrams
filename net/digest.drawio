@@ -1,1 +1,160 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T09:19:10.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="RMS4EhcfniytyRwHLnnb" type="github"><diagram id="wlMdTMe8FiSo21XscYuj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-09T09:36:24.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="SnN40mHgAH6hudCxvkkG" type="github">
+  <diagram id="pODNR_0V8KrXLVw9vyuh" name="第 1 页">
+    <mxGraphModel dx="1272" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-54" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="720" y="520" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-52" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1400" y="520" width="360" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-51" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1400" y="200" width="360" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-50" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-3" value="data1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1440" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-8" value="data1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="760" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-9" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="760" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-10" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="799.5" y="330" as="sourcePoint" />
+            <mxPoint x="799.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-11" value="摘要算法" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="340" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-4" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1440" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-13" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1600" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-14" value="摘要算法" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-15" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1540" y="280" as="sourcePoint" />
+            <mxPoint x="1640" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1640" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1530" y="419.5" as="sourcePoint" />
+            <mxPoint x="1590" y="419.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-17" value="比较" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-18" value="data2" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1440" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-19" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1440" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-20" value="hashC" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1600" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-21" value="摘要算法" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-22" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1540" y="600" as="sourcePoint" />
+            <mxPoint x="1640" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1640" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1530" y="739.5" as="sourcePoint" />
+            <mxPoint x="1590" y="739.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-27" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/check-128.png;imageBackground=none;fillStyle=auto;imageBorder=none;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-32" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/close2-128.png" vertex="1" parent="1">
+          <mxGeometry x="1700" y="720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-37" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="360" as="sourcePoint" />
+            <mxPoint x="1400" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-38" value="data1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="760" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-39" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="760" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-40" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="799.5" y="650" as="sourcePoint" />
+            <mxPoint x="799.5" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-41" value="摘要算法" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-42" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="680" as="sourcePoint" />
+            <mxPoint x="1400" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-43" value="data2" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1280" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-44" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1280" y="620" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-45" value="data1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-46" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="620" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-47" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="600" as="sourcePoint" />
+            <mxPoint x="1260" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-48" value="某些原因导致数据不完整" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="550" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-49" value="比较" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="700" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-57" value="数据完整传输" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-58" value="data1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1060" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMrzufIsd-rvU9Hqctqh-59" value="hashA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1060" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
