@@ -1,1 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T09:41:21.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="63PyGRBzm4JFG0_T9vTN" type="github"><diagram id="b3YzNilQv92_DHr9crqN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-09T10:57:04.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="Lm6KZS_nbbij-IJ-86C-" type="github">
+  <diagram id="9ZFLfZfR02EBD33RENtn" name="第 1 页">
+    <mxGraphModel dx="641" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-1" value="CA机构" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1201" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-2" value="client" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-5" value="server" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1440" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1421" y="560" as="sourcePoint" />
+            <mxPoint x="1281" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-7" value="[server信息+server公钥+CA的数字签名] &lt;br&gt;打包成 [ 数字证书 ]" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1384" y="440" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-8" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="400" as="sourcePoint" />
+            <mxPoint x="1440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-9" value="serverx信息&lt;br&gt;server公钥" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="480" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-10" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="520" as="sourcePoint" />
+            <mxPoint x="1000" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-11" value="CA的公钥已事先置入client浏览器" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="480" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-12" value="CA公钥" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="870" y="610" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-13" value="CA证书" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1530" y="610" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-14" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="680" as="sourcePoint" />
+            <mxPoint x="1440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-15" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1440" y="760" as="sourcePoint" />
+            <mxPoint x="1040" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-16" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="840" as="sourcePoint" />
+            <mxPoint x="1440" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-17" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1441" y="920" as="sourcePoint" />
+            <mxPoint x="1041" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-19" value="加密请求" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-20" value="发送client信任的数字证书" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="720" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-21" value="查看数字证书" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="760" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-22" value="拿到证书匹配的ca公钥验签" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="790" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-23" value="使用server的公钥加密密钥" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="820" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-26" value="传输用于对称加密的密钥" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="800" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-27" value="使用密钥加密传输数据" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="880" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-28" value="对称加密传输" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="880" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-29" value="使用server的私钥解密获得密钥" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="840" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-31" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="1000" as="sourcePoint" />
+            <mxPoint x="1440" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-32" value="对称加密传输" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="960" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-33" value="使用密钥解密传输数据" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="920" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrGO-0wnD2ReemaAnAX-34" value="使用密钥加密传输数据" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="960" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
