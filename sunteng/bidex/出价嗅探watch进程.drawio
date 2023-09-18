@@ -1,0 +1,168 @@
+<mxfile host="app.diagrams.net" modified="2023-09-18T07:27:25.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="gBQA71k48q4MO2LtdoLG" version="21.7.2" type="github">
+  <diagram name="第 1 页" id="e2N0RXFgBAuNs4h5yDtX">
+    <mxGraphModel dx="3695" dy="2703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6II12hNkm_zRmMIlsA5P-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F568Bq8hYjnAvC6UgeZ7-1" target="F568Bq8hYjnAvC6UgeZ7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F568Bq8hYjnAvC6UgeZ7-1" value="分批次加载sniffing" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="-40" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F568Bq8hYjnAvC6UgeZ7-3" target="6II12hNkm_zRmMIlsA5P-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F568Bq8hYjnAvC6UgeZ7-3" value="调用查询服务接口" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F568Bq8hYjnAvC6UgeZ7-4" target="6II12hNkm_zRmMIlsA5P-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F568Bq8hYjnAvC6UgeZ7-4" value="加载 sniffingConfig" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="-280" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F568Bq8hYjnAvC6UgeZ7-6" target="6II12hNkm_zRmMIlsA5P-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F568Bq8hYjnAvC6UgeZ7-6" value="检查限制条件" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="360" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F568Bq8hYjnAvC6UgeZ7-11" target="F568Bq8hYjnAvC6UgeZ7-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-55" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-55" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F568Bq8hYjnAvC6UgeZ7-11" value="将嗅探策略加入对应的嗅探配置堆" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="630" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F568Bq8hYjnAvC6UgeZ7-12" target="F568Bq8hYjnAvC6UgeZ7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F568Bq8hYjnAvC6UgeZ7-12" value="mongo更新这个批次的sniffing" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="760" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F568Bq8hYjnAvC6UgeZ7-13" target="6II12hNkm_zRmMIlsA5P-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F568Bq8hYjnAvC6UgeZ7-13" value="mq通知sniffing" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="880" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F568Bq8hYjnAvC6UgeZ7-20" target="F568Bq8hYjnAvC6UgeZ7-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F568Bq8hYjnAvC6UgeZ7-20" value="mongo 更新 sniffing,sniffingConfig" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1560" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F568Bq8hYjnAvC6UgeZ7-21" value="mq 发送 sniffing,sniffingConfig" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1680" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-1" target="6II12hNkm_zRmMIlsA5P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-1" value="计算投放效果" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-2" target="F568Bq8hYjnAvC6UgeZ7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-2" target="F568Bq8hYjnAvC6UgeZ7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-2" value="是否大于堆顶元素的投放效果" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=auto;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-3" target="6II12hNkm_zRmMIlsA5P-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-3" target="6II12hNkm_zRmMIlsA5P-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-3" value="堆是否为空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=auto;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1280" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-4" target="F568Bq8hYjnAvC6UgeZ7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-4" value="mongo 插入新的sniffing" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1440" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-20" target="6II12hNkm_zRmMIlsA5P-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-20" target="F568Bq8hYjnAvC6UgeZ7-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="1060" />
+              <mxPoint x="-240" y="-10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-20" value="批次加载完" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=auto;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1000" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-28" target="6II12hNkm_zRmMIlsA5P-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-28" value="设置 sniffingConfig下一阶段 stage&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1160" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-30" target="F568Bq8hYjnAvC6UgeZ7-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="1590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-30" value="关闭sniffingConfig" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1310" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-31" target="6II12hNkm_zRmMIlsA5P-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="1410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-31" value="生成sniffing" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1310" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-41" target="F568Bq8hYjnAvC6UgeZ7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-41" target="6II12hNkm_zRmMIlsA5P-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-41" value="是否超出限制的出价次数" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=auto;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-46" target="F568Bq8hYjnAvC6UgeZ7-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-46" value="更改sniffing状态" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6II12hNkm_zRmMIlsA5P-53" target="F568Bq8hYjnAvC6UgeZ7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6II12hNkm_zRmMIlsA5P-53" value="查询处理的sniffing总数" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-160" width="280" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
