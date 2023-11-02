@@ -1,69 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T06:46:06.574Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9OPyI6mm8LYmI4co6mv5" version="21.7.2" type="github">
-  <diagram name="第 1 页" id="e2N0RXFgBAuNs4h5yDtX">
-    <mxGraphModel dx="1434" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-11-02T06:41:53.014Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.0" etag="btyUpcSzsprYPcGxlKC4" type="github">
+  <diagram name="第 1 页" id="ihpY6AINH63avyy964Fc">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-1" value="分批次加载sniffing" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="170" y="430" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-2" value="初始化堆" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="170" y="230" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-3" value="调用查询服务接口" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="310" y="540" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-4" value="加载 sniffingConfig" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="170" y="160" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-5" value="查询sniffing 总数" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="170" y="300" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-6" value="检查限制条件" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="310" y="620" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-7" value="检查周期" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="320" y="710" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-8" value="检查超界率" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="320" y="810" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-9" value="检查曝光量是否可信" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="330" y="900" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-10" value="计算投放效果" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="330" y="980" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-11" value="将嗅探策略加入对应的嗅探配置堆" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="320" y="1060" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-12" value="更新这个批次下更新的sniffing" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="190" y="1150" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-13" value="mq通知sniffing" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="190" y="1240" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-14" value="处理完所有批次的嗅探id后，得到嗅探配置堆（合格的前20%）" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="190" y="1380" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-16" value="根据 嗅探堆和嗅探配置 生成下一阶段的 嗅探策略" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="190" y="1460" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-17" value="检查嗅探配置的堆，如果结果是空的，说明这个堆下的那些嗅探配置都没有了。那就说明这个配置需要关闭。" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="320" y="1550" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-18" value="进入下一个阶段，给sc和sniffing 加上。" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="320" y="1640" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-19" value="根据sc的前20%和 下一个阶段的步长 生成 新的策略id&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="320" y="1740" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-20" value="更新mongo，新加mongo" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1830" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F568Bq8hYjnAvC6UgeZ7-21" value="发送mq" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1920" width="270" height="60" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
